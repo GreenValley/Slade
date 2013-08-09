@@ -32,7 +32,7 @@ namespace Slade.Commands.RunCommandApplication
         }
 
         /// <summary>
-        /// Registers all supports commands with the console application's registrar.
+        /// Registers all supported commands with the console application's registrar.
         /// </summary>
         /// <param name="registrar">A collection of command registrations for the application.</param>
         protected override void RegisterCommands(ExecutableCommandRegistrar registrar)

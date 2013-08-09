@@ -7,7 +7,7 @@ using System.Xml.Serialization;
 namespace Slade.Commands.RunCommandApplication
 {
 	/// <summary>
-	/// Implements the <see cref="IApplicationContext"/> interface to provide a context specific to working
+	/// Implements the <see cref="IRunCommandApplicationContext"/> interface to provide a context specific to working
 	/// with a running instance of the <see cref="RunCommandConsoleApplication"/> class.
 	/// </summary>
 	public sealed class RunCommandApplicationContext : IRunCommandApplicationContext

@@ -48,6 +48,7 @@
     <Compile Include="Conversion\ObjectConverterFactory.cs" />
     <Compile Include="Conversion\StringArrayObjectConverter.cs" />
     <Compile Include="Conversion\StringObjectConverter.cs" />
+    <Compile Include="DisposableObject.cs" />
     <Compile Include="EmptyArray.cs" />
     <Compile Include="EnumHelper.cs" />
     <Compile Include="StringExtensions.cs" />

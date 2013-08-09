@@ -1,14 +1,12 @@
 ﻿using System;
 
-namespace Slade.Commands.RunCommandApplication
+namespace Slade.Commands.SimpleCommunicationApplication
 {
     /// <summary>
     /// Contains the entry point for the console application.
     /// </summary>
     public static class Program
     {
-        private const string APPLICATION_CONTEXT_PATH = @".\run.exe.data";
-
         /// <summary>
         /// Main entry point for the application process execution.
         /// </summary>
@@ -17,8 +15,8 @@ namespace Slade.Commands.RunCommandApplication
         {
             try
             {
-                var context = new RunCommandApplicationContext(APPLICATION_CONTEXT_PATH);
-                var application = new RunCommandConsoleApplication(context, arguments);
+                var context = new SimpleCommunicationApplicationContext();
+                var application = new SimpleCommunicationConsoleApplication(context, arguments);
 
                 application.Run();
             }
